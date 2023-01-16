@@ -1,0 +1,2 @@
+- cargo install bindgen-cli
+- bindgen input.h -- -isysroot$(xcrun --sdk macosx --show-sdk-path)
